@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    background-color: rgb(84, 205, 209);
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Girassol', cursive;
+    color: aliceblue;
+}
+
+header div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+header div ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Girassol', cursive;
+}
+main{
+    background-image: linear-gradient(
+        360deg,
+        rgba(177, 255, 250, 0.5) 0%,
+        #2fdaff
+    );
+    background-attachment: fixed;
+}
+
+main .sect1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .sect1 h4{
+    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    padding-bottom: 2vh;
+    color: cornflowerblue;
+}
+main .sect1 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main .sect1 ul li {
+    padding: 1vh;
+    max-width: 700px;
+    font-family: 'Girassol', cursive;
+    font-size: 1.3rem;
+}
+main .sect2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .sect2 h4{
+    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    padding-bottom: 2vh;
+    color: cornflowerblue;
+}
+main .sect2 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main .sect2 ul li {
+    padding: 1vh;
+    max-width: 700px;
+    font-family: 'Girassol', cursive;
+    font-size: 1.3rem;
+}
+main .sect3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .sect3 h4{
+    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2rem;
+    padding-bottom: 2vh;
+    color: cornflowerblue;
+}
+    main p {
+    color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding-bottom: 3vh;
+    font-size: 1.8rem;
+}
+main h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 2vh;
+}
+main h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    padding-bottom: 2vh;
+}
+
+footer {
+    background-color: rgb(84, 205, 209);
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 720px) {
+    main{
+        background-image: linear-gradient(
+            360deg,
+            rgba(177, 255, 250, 0.5) 0%,
+            #78ee9f
+        );
+        background-attachment: fixed;
+    }
+    header h1 {
+        background-color:#78ee9f;
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Girassol', cursive;
+        color: aliceblue;
+    }
+    main .sect1 h4{
+        max-width: 370px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 2rem;
+        padding-bottom: 2vh;
+        color: cornflowerblue;
+    }
+    footer {
+        background-color:#78ee9f;
+        text-align: center;
+        width: 100%;
+        bottom: 0;
+        padding: 10px;
+    }
+}
+
